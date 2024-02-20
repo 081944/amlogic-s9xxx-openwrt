@@ -4550,8 +4550,8 @@ CONFIG_WOLFSSL_HAS_OCSP=y
 CONFIG_WOLFSSL_HAS_WPAS=y
 CONFIG_WOLFSSL_HAS_ECC25519=y
 # CONFIG_WOLFSSL_HAS_ECC448 is not set
-CONFIG_WOLFSSL_HAS_OPENVPN=y
-CONFIG_WOLFSSL_ALT_NAMES=y
+# CONFIG_WOLFSSL_HAS_OPENVPN=y
+# CONFIG_WOLFSSL_ALT_NAMES=y
 # end of wolfSSL Library Configuration
 
 # CONFIG_PACKAGE_libwolfsslcpu-crypto is not set
@@ -4836,7 +4836,7 @@ CONFIG_PACKAGE_libmbim=y
 # CONFIG_PACKAGE_libmicrohttpd-no-ssl is not set
 # CONFIG_PACKAGE_libmicrohttpd-ssl is not set
 # CONFIG_PACKAGE_libmilter-sendmail is not set
-CONFIG_PACKAGE_libminiupnpc=y
+# CONFIG_PACKAGE_libminiupnpc=y
 # CONFIG_PACKAGE_libmms is not set
 CONFIG_PACKAGE_libmnl=y
 # CONFIG_PACKAGE_libmodbus is not set
@@ -5118,7 +5118,7 @@ CONFIG_PACKAGE_zlib=y
 # 1. Collections
 #
 CONFIG_PACKAGE_luci=y
-CONFIG_PACKAGE_luci-lib-docker=y
+# CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-light=y
 # CONFIG_PACKAGE_luci-nginx is not set
 # CONFIG_PACKAGE_luci-ssl is not set
@@ -5228,7 +5228,7 @@ CONFIG_PACKAGE_luci-app-cifs-mount=y
 # CONFIG_PACKAGE_luci-app-cshark is not set
 # CONFIG_PACKAGE_luci-app-dawn is not set
 # CONFIG_PACKAGE_luci-app-dcwapd is not set
-CONFIG_PACKAGE_luci-app-ddns=y
+# CONFIG_PACKAGE_luci-app-ddns=y
 # CONFIG_PACKAGE_luci-app-ddns-go is not set
 # CONFIG_PACKAGE_luci-app-diag-core is not set
 CONFIG_PACKAGE_luci-app-diskman=y
@@ -5237,7 +5237,7 @@ CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 # CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm is not set
 # CONFIG_PACKAGE_luci-app-dnscrypt-proxy is not set
 # CONFIG_PACKAGE_luci-app-docker is not set
-CONFIG_PACKAGE_luci-app-dockerman=y
+# CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-dump1090 is not set
 # CONFIG_PACKAGE_luci-app-dynapoint is not set
 # CONFIG_PACKAGE_luci-app-email is not set
@@ -5247,8 +5247,8 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-fileassistant is not set
 # CONFIG_PACKAGE_luci-app-filebrowser is not set
 CONFIG_PACKAGE_luci-app-firewall=y
-CONFIG_PACKAGE_luci-app-frpc=y
-CONFIG_PACKAGE_luci-app-frps=y
+# CONFIG_PACKAGE_luci-app-frpc=y
+# CONFIG_PACKAGE_luci-app-frps=y
 # CONFIG_PACKAGE_luci-app-fwknopd is not set
 # CONFIG_PACKAGE_luci-app-gost is not set
 # CONFIG_PACKAGE_luci-app-gowebdav is not set
@@ -5301,7 +5301,7 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 # CONFIG_PACKAGE_luci-app-omcproxy is not set
 CONFIG_PACKAGE_luci-app-openclash=y
 # CONFIG_PACKAGE_luci-app-openthread is not set
-CONFIG_PACKAGE_luci-app-openvpn=y
+# CONFIG_PACKAGE_luci-app-openvpn=y
 # CONFIG_PACKAGE_luci-app-openvpn-server is not set
 # CONFIG_PACKAGE_luci-app-openwisp is not set
 CONFIG_PACKAGE_luci-app-opkg=y
@@ -5383,14 +5383,14 @@ CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-uhttpd is not set
 # CONFIG_PACKAGE_luci-app-unblockneteasemusic is not set
 # CONFIG_PACKAGE_luci-app-unbound is not set
-CONFIG_PACKAGE_luci-app-upnp=y
+# CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-usb-printer is not set
 # CONFIG_PACKAGE_luci-app-usb3disable is not set
 # CONFIG_PACKAGE_luci-app-usteer is not set
 # CONFIG_PACKAGE_luci-app-uugamebooster is not set
 # CONFIG_PACKAGE_luci-app-v2raya is not set
 # CONFIG_PACKAGE_luci-app-verysync is not set
-CONFIG_PACKAGE_luci-app-vlmcsd=y
+# CONFIG_PACKAGE_luci-app-vlmcsd=y
 # CONFIG_PACKAGE_luci-app-vnstat is not set
 # CONFIG_PACKAGE_luci-app-vnstat2 is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
@@ -5538,7 +5538,7 @@ CONFIG_PACKAGE_luci-i18n-cifs-mount-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-ddns-tr is not set
 # CONFIG_PACKAGE_luci-i18n-ddns-uk is not set
 # CONFIG_PACKAGE_luci-i18n-ddns-vi is not set
-CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-ddns-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-diskman-pl is not set
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
@@ -5575,7 +5575,7 @@ CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-dockerman-tr is not set
 # CONFIG_PACKAGE_luci-i18n-dockerman-uk is not set
 # CONFIG_PACKAGE_luci-i18n-dockerman-vi is not set
-CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-dockerman-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-ar is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-bg is not set
@@ -5643,7 +5643,7 @@ CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-frpc-tr is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-uk is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-vi is not set
-CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-frpc-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-frps-ar is not set
 # CONFIG_PACKAGE_luci-i18n-frps-bg is not set
@@ -5677,7 +5677,7 @@ CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-frps-tr is not set
 # CONFIG_PACKAGE_luci-i18n-frps-uk is not set
 # CONFIG_PACKAGE_luci-i18n-frps-vi is not set
-CONFIG_PACKAGE_luci-i18n-frps-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-frps-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-frps-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-ksmbd-ar is not set
 # CONFIG_PACKAGE_luci-i18n-ksmbd-bg is not set
@@ -5745,7 +5745,7 @@ CONFIG_PACKAGE_luci-i18n-ksmbd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-openvpn-tr is not set
 # CONFIG_PACKAGE_luci-i18n-openvpn-uk is not set
 # CONFIG_PACKAGE_luci-i18n-openvpn-vi is not set
-CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-openvpn-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-ar is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-bg is not set
@@ -5915,9 +5915,9 @@ CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-upnp-tr is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-uk is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-vi is not set
-CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-upnp-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-tw is not set
 # end of LuCI
 
@@ -6188,7 +6188,7 @@ CONFIG_PACKAGE_iptables-mod-tproxy=y
 
 # CONFIG_PACKAGE_miniupnpc is not set
 # CONFIG_PACKAGE_miniupnpd-iptables is not set
-CONFIG_PACKAGE_miniupnpd-nftables=y
+# CONFIG_PACKAGE_miniupnpd-nftables=y
 # CONFIG_PACKAGE_natpmpc is not set
 CONFIG_PACKAGE_nftables-json=y
 # CONFIG_PACKAGE_nftables-nojson is not set
@@ -6242,7 +6242,7 @@ CONFIG_PACKAGE_avahi-dbus-daemon=y
 # CONFIG_PACKAGE_bind-tools is not set
 # CONFIG_PACKAGE_chinadns-ng is not set
 # CONFIG_PACKAGE_ddns-go is not set
-CONFIG_PACKAGE_ddns-scripts=y
+# CONFIG_PACKAGE_ddns-scripts=y
 # CONFIG_PACKAGE_ddns-scripts-cloudflare is not set
 # CONFIG_PACKAGE_ddns-scripts-cnkuai is not set
 # CONFIG_PACKAGE_ddns-scripts-digitalocean is not set
@@ -6259,7 +6259,7 @@ CONFIG_PACKAGE_ddns-scripts=y
 # CONFIG_PACKAGE_ddns-scripts-one is not set
 # CONFIG_PACKAGE_ddns-scripts-pdns is not set
 # CONFIG_PACKAGE_ddns-scripts-route53 is not set
-CONFIG_PACKAGE_ddns-scripts-services=y
+# CONFIG_PACKAGE_ddns-scripts-services=y
 # CONFIG_PACKAGE_ddns-scripts-transip is not set
 # CONFIG_PACKAGE_ddns-scripts-utils is not set
 # CONFIG_PACKAGE_ddns-scripts_aliyun is not set
@@ -6694,7 +6694,7 @@ CONFIG_OPENCONNECT_GNUTLS=y
 # CONFIG_PACKAGE_uanytun-nocrypt is not set
 # CONFIG_PACKAGE_uanytun-sslcrypt is not set
 # CONFIG_PACKAGE_vpnc is not set
-CONFIG_PACKAGE_vpnc-scripts=y
+# CONFIG_PACKAGE_vpnc-scripts=y
 # CONFIG_PACKAGE_wireguard-tools is not set
 # CONFIG_PACKAGE_xl2tpd is not set
 # CONFIG_PACKAGE_zerotier is not set
@@ -6735,8 +6735,8 @@ CONFIG_PACKAGE_cgi-io=y
 # CONFIG_PACKAGE_cloudflared is not set
 # CONFIG_PACKAGE_etebase is not set
 # CONFIG_PACKAGE_freshclam is not set
-CONFIG_PACKAGE_frpc=y
-CONFIG_PACKAGE_frps=y
+# CONFIG_PACKAGE_frpc=y
+# CONFIG_PACKAGE_frps=y
 # CONFIG_PACKAGE_gateway-go is not set
 # CONFIG_PACKAGE_gatling is not set
 CONFIG_PACKAGE_haproxy=y
@@ -7211,7 +7211,7 @@ CONFIG_PACKAGE_uclient-fetch=y
 # CONFIG_PACKAGE_v2ray-core is not set
 # CONFIG_PACKAGE_vallumd is not set
 # CONFIG_PACKAGE_verysync is not set
-CONFIG_PACKAGE_vlmcsd=y
+# CONFIG_PACKAGE_vlmcsd=y
 # CONFIG_PACKAGE_vncrepeater is not set
 # CONFIG_PACKAGE_vnstat is not set
 # CONFIG_PACKAGE_vnstat2 is not set
@@ -7812,18 +7812,18 @@ CONFIG_PACKAGE_dbus=y
 # CONFIG_PACKAGE_digitemp-usb is not set
 # CONFIG_PACKAGE_dmesg is not set
 # CONFIG_PACKAGE_dmidecode is not set
-CONFIG_PACKAGE_docker=y
-CONFIG_PACKAGE_docker-compose=y
-CONFIG_PACKAGE_dockerd=y
+# CONFIG_PACKAGE_docker=y
+# CONFIG_PACKAGE_docker-compose=y
+# CONFIG_PACKAGE_dockerd=y
 # CONFIG_DOCKER_CHECK_CONFIG is not set
-CONFIG_DOCKER_CGROUP_OPTIONS=y
+# CONFIG_DOCKER_CGROUP_OPTIONS=y
 # CONFIG_DOCKER_OPTIONAL_FEATURES is not set
 
 #
 # Network
 #
 # CONFIG_DOCKER_NET_OVERLAY is not set
-CONFIG_DOCKER_NET_MACVLAN=y
+# CONFIG_DOCKER_NET_MACVLAN=y
 # CONFIG_DOCKER_NET_TFTP is not set
 # end of Network
 
@@ -7831,7 +7831,7 @@ CONFIG_DOCKER_NET_MACVLAN=y
 # Storage
 #
 # CONFIG_DOCKER_STO_DEVMAPPER is not set
-CONFIG_DOCKER_STO_EXT4=y
+# CONFIG_DOCKER_STO_EXT4=y
 # CONFIG_DOCKER_STO_BTRFS is not set
 # end of Storage
 
